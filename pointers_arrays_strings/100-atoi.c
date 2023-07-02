@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - Copies the string pointed.
+ * _atoi - Convert a string to an integer.
  *
  * @s: char
  *
@@ -25,7 +25,7 @@ b *= -1;
 while (s[a] >= 48 && s[a] <= 57)
 {
 c = 1;
-x = (x * 10) + (s[c] - '0');
+x = (x * 10) + (s[a] - '0');
 a++;
 }
 
