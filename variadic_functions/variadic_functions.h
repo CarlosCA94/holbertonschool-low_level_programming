@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * typedef struct print- prints a name as is
+ * struct print- prints a name as is
  *
  *
  * Return: Nothing.
