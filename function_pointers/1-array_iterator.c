@@ -7,9 +7,11 @@
  * @array: first paramter
  * @size: second parameter
  * @action: third parameter
+ *
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
+  
 {
 size_t i;
 
