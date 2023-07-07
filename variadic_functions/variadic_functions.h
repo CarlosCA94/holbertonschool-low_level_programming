@@ -2,6 +2,13 @@
 #define _variadic_functions_h_
 #include <stdarg.h>
 
+/**
+ * typedef struct - prints a name as is
+ * 
+ *
+ * Return: Nothing.
+ */
+
 typedef struct print
 {
   char *p;
