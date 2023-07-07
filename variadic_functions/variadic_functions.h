@@ -5,6 +5,8 @@
 /**
  * struct print- prints a name as is
  *
+ * @p: first parameter
+ * @f: second parameter
  *
  * Return: Nothing.
  */
