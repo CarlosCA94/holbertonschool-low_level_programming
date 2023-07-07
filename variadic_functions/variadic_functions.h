@@ -4,15 +4,15 @@
 
 /**
  * typedef struct - prints a name as is
- * 
+ *
  *
  * Return: Nothing.
  */
 
 typedef struct print
 {
-  char *p;
-  void (*f)(va_list ap);
+char *p;
+void (*f)(va_list ap);
 } print_t;
 
 int _putchar(char c);
